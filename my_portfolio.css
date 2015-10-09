@@ -1,0 +1,15 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+ 
+
+body {background-image: url("https://s3-us-west-1.amazonaws.com/addxyz.net/WatercolorFloralBorder_by_JulieSongInk1.jpg");
+background-position: center;
+background-attachment: fixed;
+background-size: cover;}
+h1 {font-weight: bold; font-style: italic; color: #ff6666;text-align: center;width: px; text-decoration: underline;margin-top: 90px;}
+
