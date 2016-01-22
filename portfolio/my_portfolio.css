@@ -11,6 +11,12 @@ body {background-image: url("images/tropical.jpg");
 background-position: center;
 background-attachment: fixed;
 background-size: cover;}
+a {
+	color: #A0A0A0;
+}
+a: visited {
+	color: #A0A0A0;
+}
 h1 {font-weight: bold; 
 	font-style: italic; 
 	color: #004C99;
