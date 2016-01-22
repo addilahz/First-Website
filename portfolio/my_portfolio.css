@@ -11,5 +11,62 @@ body {background-image: url("images/tropical.jpg");
 background-position: center;
 background-attachment: fixed;
 background-size: cover;}
-h1 {font-weight: bold; font-style: italic; color: #004C99;text-align: center;width: px; text-decoration: underline;margin-top: 90px;}
+h1 {font-weight: bold; 
+	font-style: italic; 
+	color: #004C99;
+	text-align: center;
+	width: px; 
+	text-decoration: underline;
+	margin-top: 90px;
+}
+.wrapper {
+	width: 720px;
+	margin: 0px auto;
+	
+	}
+.header {
+	margin: 40px 0px 20px 0px;
+}
 
+.entry {
+	
+	
+	width: 220px;
+	float:left;
+	margin: 10px;
+	height: 188px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+figure {
+	display: block;
+	width: 202px;
+	height: 170px;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	
+}
+.roundedcorner {
+	width: 200px;
+	height: 150px;
+	border: 3px solid #A0A0A0;
+	border-radius: 180px;
+	-moz-border-radius:180px;
+	-webkit-border-radius: 180px;
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	clear: both; 
+	color: #202020;
+	font-size: 15px;
+	text-align: left;
+}
+figcaption {
+	padding-left:50px;
+	text-decoration: underline;
+	color: #606060;
+}
