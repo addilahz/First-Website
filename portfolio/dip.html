@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+<script src="../assets/jquery-1.12.0.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("images/dippetitfour.jpg");
+  height: 350px;
+  width: 600px;
+}
+.second{
+  background-image: url("images/dipmillefeuille.jpg");
+  height: 350px;
+  width: 600px;
+}
+.dessert{
+  background-image: url("images/dipstrawberrycake.jpg");
+  height: 350px;
+  width: 600px;
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Dip's Bakery</h1>
+<h2>a Johor Bahru city bakershop</h2>
+<div class="first">
+  <p>Dip's Signature Petit Four<span class="price">$6</span><br />
+  <small>Pistachio macarons & mini strawberry cheesecake. Perfect for high-tea and pair it with your favorite tea or coffee.</small></p>
+</div>
+
+<div class="second">
+  <p>Raspberry Mille-Feuille <span class="price">$8</span><br/>
+  <small>Flaky puff pastry crust with crispy praline with mousseline cream. **Available in 3-4 servings, 6-8 servings and 10-12 servings. Price varied**</small></p>
+</div>
+  
+<div class="dessert">
+  <p>Strawberry Layered Cake <span class="price">$20</span><br />
+  <small>The moist cake, walnut and mixed of buttercream & cream cheese frosting. This cake and frosting together perfectly balanced and propotioned.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
+
