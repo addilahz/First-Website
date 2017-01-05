@@ -1,0 +1,39 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+img.bg {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: ;
+	left: 0;
+}
+
+#page-wrap {
+	position: relative;
+	width: 460px;
+	margin: 50px auto;
+	padding: 20px;
+	background: white;
+	-moz-box-shadow: 0 0 20px #006666;
+	-webkit-box-shadow: 0 0 20px #006666;
+	box-shadow: 0 0 20px #006666;
+}
+
+p {
+	font: 15px/2 Georgia, Serif;
+	margin: 0 0 30px 0;
+	text-indent: 40px;
+}
+
